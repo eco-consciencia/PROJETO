@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+
+
+
+
+
+	<title>Projeto Natalia</title>
+<style>
+	
+*{ padding: 0px;
+	margin: 0px;
+
+
+
+
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+body{font-family: arial;
+background:url(fogo.jpg);
+background-size: 100%;
+width: 100%;
+
+
+}
+ul{
+	list-style: none;
+}
+img{width: 40px;
+
+
+}
+input[type="checkbox"]
+{
+	display: none;
+}
+
+ul{
+	
+	top: 70px;
+	position: absolute;
+	width: 100%;
+}
+nav{
+	background-color: rgba(16,16,16,.5);
+	height: 700px;
+	width: 350px;
+	left: -350px;
+	position: absolute;
+	transition: all .5s;
+}
+a{display: block;
+	padding: 20px 5px;
+	color: white;
+
+
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(350px);
+}
+
+a:hover{
+	background-color: rgb(176,224,230);
+	color: black;
+
+
+}
+label{
+		padding: 8px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+<input type="checkbox" id="check">
+<label for="check">
+	<img src="menu.png">
+
+
+</label>
+<nav>
+	<ul>
+		<li><a href="noticias.html">Noticias</a></li>
+		
+
+	<li><a href="">Causas</a></li>
+
+	<li><a href="">Os Animais</a></li>
+	<li><a href="">Ecossistema</a></li>
+	<li><a href="">Consequências</a></li>
+	</ul>
+
+
+
+
+</nav>
+</body>
+</html>
